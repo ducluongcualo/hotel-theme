@@ -884,7 +884,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .banner {
   margin-top: 55px;
-  background-image: url(/assets/images/bg-banner.jpg);
+  background-image: url(../images/bg-banner.jpg);
   padding: 50px 110px;
   background-size: cover;
   background-repeat: no-repeat;
