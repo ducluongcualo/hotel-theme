@@ -1,0 +1,121 @@
+@media (max-width:1200px) {
+    .header-nav {
+        background-image: none !important;
+        background-color: #78635a !important;
+    }
+
+    .header-nav-right {
+        justify-content: center;
+    }
+
+    .header-nav-left {
+        justify-content: center;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .contact-left-box {
+        position: none;
+    }
+
+    .contact-form {
+        width: 400px;
+    }
+
+    .header-content-icon {
+        display: block;
+    }
+}
+
+@media (max-width:991px) {
+    .contact-left-box {
+        margin-top: 0;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .post-item {
+        margin: 15px 0px;
+    }
+
+    .footer-top-item p.phone,
+    .footer-top-item .social {
+        margin-bottom: 50px;
+    }
+
+    .box-choose {
+        justify-content: center;
+    }
+
+    .box-form  {
+        margin-left: 8px;
+    }
+}
+
+@media (max-width:768px) {
+    .rooms-banner-content h1 {
+        font-size: 4rem;
+    }
+    .rooms-filter-display {
+        display: none;
+    }
+    .text-box {
+        display: none;
+    }
+
+    .check-form form {
+        position: unset;
+        top: 0%;
+        transform: translateY(-0%);
+        display: block;
+    }
+
+    .check-form-list {
+        width: 100%;
+    }
+
+    .check-form-btn {
+        width: 100%;
+    }
+
+    .check-form {
+        height: 100%;
+    }
+
+    .check-form-item {
+        margin-bottom: 20px;
+    }
+
+    .check-form-btn input {
+        width: 100%;
+    }
+
+    .banner-list {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .footer-top-item .search form {
+        display: inline-block;
+        width: 100%;
+    }
+    .footer-top-item .search-input,
+    .footer-top-item .search-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .header-nav-language,
+    .header-nav-our {
+        display: none;
+    }
+}

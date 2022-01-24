@@ -17,9 +17,52 @@ $('.slider .owl-carousel') .owlCarousel({
 
 // datepicker
 
-// var date = $("").dtpicker({ dateFormat: 'dd,MM,yyyy' }).val()
-// $("#my-input").datepicker( 'getDate' );
-//  var date = $("#my-input").datepicker();
-//  var date = $('#my-input').datepicker();
-//  var d = new Date();
-//  console.log("day", d.getDay())
+// $("#check-in").datepicker({
+//     nextText: "NEXT",
+//     prevText: "PREV",
+//     changeMonth: false,
+//     numberOfMonths: 1,
+//     onClose: function() {  
+//         console.log('hello')
+//      }
+//  });
+
+// header navbar
+
+$('.header-content-icon').click(function() {
+    $('.navbar-menu').addClass('active');
+})
+$('.navbar-menu-close').click(function() {
+    $('.navbar-menu').removeClass('active');
+
+})
+
+// page rooms toggle slide 
+
+
+$(document).ready(function() {
+    $('.checkbox-list').slideUp()
+    $('.sidebar-service .sidebar-service-option ').click (function() {
+        $(this).next("").slideToggle("slow");
+       $( this).prev("").slideUp("slow");
+        $(this).toggleClass('active');
+    })
+});
+
+
+// filter rooms list 
+
+$('.rooms-filter-display .icon').click(function() {
+    $('.rooms-filter-display .icon').removeClass('active')
+    $(this).addClass('active')
+})
+
+$('.rooms-filter-display .icon-list').click(function() {
+    $('.content .item').removeClass('col-lg-6')
+    $('.content .item').addClass('col-lg-12')
+})
+
+$('.rooms-filter-display .icon-grid').click(function() {
+    $('.content .item').removeClass('col-lg-12')
+    $('.content .item').addClass('col-lg-6')
+})
