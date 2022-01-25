@@ -1,4 +1,11 @@
 @media (max-width:1200px) {
+    .sidebar-booking .sidebar-tour .box {
+        padding: 4px;
+    }
+
+    .banner-left-item {
+        margin-right: 20px;
+    }
     .header-nav {
         background-image: none !important;
         background-color: #78635a !important;
@@ -30,6 +37,15 @@
 }
 
 @media (max-width:991px) {
+    .banner-left-list {
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .banner-right-info {
+        padding: 15px;
+    }
+
     .contact-left-box {
         margin-top: 0;
     }
@@ -117,5 +133,19 @@
     .header-nav-language,
     .header-nav-our {
         display: none;
+    }
+    .banner-left-list {
+        display: block;
+        text-align: center;
+    }
+
+    .gallery-content-info .info-list {
+        display: block;
+        text-align: center;
+    }
+
+    .gallery-content-info .info-item {
+        width: 100%;
+        margin-bottom: 40px;
     }
 }

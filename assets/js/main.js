@@ -66,3 +66,25 @@ $('.rooms-filter-display .icon-grid').click(function() {
     $('.content .item').removeClass('col-lg-12')
     $('.content .item').addClass('col-lg-6')
 })
+
+
+// gallery slide 
+$('.gallery-slide-list').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: false,
+    draggable:false,
+    asNavFor: '.gallery-slide-nav'
+})
+
+$('.gallery-slide-nav').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    asNavFor: '.gallery-slide-list',
+    dots: false,
+    centerMode: false,
+    arrows: false,
+    focusOnSelect: true,
+    draggable:false,
+})
