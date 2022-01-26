@@ -1,4 +1,8 @@
 @media (max-width:1200px) {
+
+    .about-service-list {
+        padding: 0;
+    }
     .sidebar-booking .sidebar-tour .box {
         padding: 4px;
     }
@@ -37,6 +41,25 @@
 }
 
 @media (max-width:991px) {
+    .around-content-item {
+        margin-bottom: 20px;
+    }
+    .desc-img-item  {
+        margin-bottom: 20px;
+    }
+
+    .about-description-left h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .about-description p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .about-service-item {
+        width: 100%;
+    }
     .banner-left-list {
         justify-content: center;
         padding: 15px;
@@ -77,6 +100,13 @@
 }
 
 @media (max-width:768px) {
+    .footer-menu-list {
+        position: relative;
+        flex-wrap: wrap;
+    }
+    .around-banner-box h1 {
+        font-size: 4rem;
+    }
     .rooms-banner-content h1 {
         font-size: 4rem;
     }
@@ -130,6 +160,12 @@
 }
 
 @media (max-width:500px) {
+    .footer-bottom-img img {
+        width: 100%;
+    }
+    .footer-menu-item {
+        margin-bottom: 20px;
+    }
     .header-nav-language,
     .header-nav-our {
         display: none;
